@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html>
+<meta charset="UTF-8">
+<link rel="Stylesheet" type="text/css" href="style.css" />
+
+</head>
+<body>
+<textarea cols="84" rows="41" >
+ 
+ DOKUMENT HTML
+ 
+ <!DOCTYPE html>
+ <html>
+<head>
+<body>
+<p align="center"> <font color="grey" size="7" face="Arial"> Temat: Wewnętrzny arkusz stylów:
+ </font> </p> <br>
+<ol>
+<li><font size=5 color=green>Gdzie jest wstawiany</font><br>
+<font face=Arial>Wstawia się zawsze w części nagłówkowej dokumentu (pomiędzy znacznikami head a 
+/head). Można go zastosować, gdy elementy które pragniemy poddać formatowaniu, 
+występują wielokrotnie na stronie i wszystkim chcemy nadać takie same atrybuty (inne niż 
+domyślne).</font><br>
+<li><font size=5 color=green>Składnia teoretyczna (w ramce, konieczne wcięcia)</font><br>
+<font face =Arial>head
+(...)
+ style type="text/css"
+ /* ![CDATA[ */
+ selektor1 { cecha: wartość; cecha2: wartość2... }
+ selektor2 { cecha: wartość; cecha2: wartość2... }
+ (...)
+ /* ]]> */
+ /style
+(...)
+/head</font><br>
+
+<li><font size=5 color=green>Jakie mogą być selektory</font><br>
+<font face=Arial>Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (tytuł), td (komórka 
+tabeli) i inne. To właśnie elementom, które znajdują się w kodzie źródłowym, pomiędzy tymi 
+znacznikami, nadajemy atrybuty formatowania opisane w arkuszu</font><br>
+<li><font size=5 color=green>Jakie mogą być cechy i wartości</font><br>
+<font face=Arial>Jako "cecha" (w deklaracji stylu - powyżej) należy wpisać o jakie konkretnie atrybuty 
+formatowania nam chodzi (opisane w kolejnych rozdziałach).
+Natomiast jako wyraz "wartość" wpisujemy dokładną wartość atrybutu.
+Zwróć uwagę, że jednemu selektorowi możemy nadać kilka atrybutów (cech). Są one wtedy 
+rozdzielone średnikami.</font><br>
+</ol>
+
+</body>
