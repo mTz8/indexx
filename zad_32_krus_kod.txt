@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<html>
+<head>
+<meta charset="utf-8">
+<title> </title>
+</head>
+<body>
+<ol>
+<li><h1>Podaj definicje modelu pude³kowego</h1></li>
+<p>Ka¿dy element w dokumencie HTML, otacza siê prostok¹tnym obszarem zwanym pude³kiem (ang. Box model). Pude³ko sk³ada siê z kilku warstw:<br>
+zawartoœæ modelu pude³kowego:<br>
+? "content" – zawartoœæ elementu (np.: tekst, obrazek)<br>
+? "padding" - otaczaj¹ce marginesy wewnêtrzne, odstêp miêdzy obramowaniem i zawartoœci¹ elementu<br>
+? "border" – obramowania wokó³ zawartoœci elementu, ma styl i kolor.<br>
+? "margin" – marginesy wokó³ ramki (margines zewnêtrzny). Jest to pusty obszar wokó³ ramki, który nie ma koloru t³a i jest przeŸroczysty.</p>
+<li><h1>Wykonaj oraz uzupe³nij tabele</h1></li>
+<table style="width:100%" border :1px>
+<tr>
+<td>zawartoœæ</td>
+<td>opis</td
+</tr>
+<tr>
+<td>content</td>
+<td>zawartoœæ elementu (np.: tekst, obrazek)</td>
+</tr>
+<tr>
+<td>padding</td>
+<td>otaczaj¹ce marginesy wewnêtrzne, odstêp miêdzy obramowaniem i zawartoœci¹ elementu</td>
+</tr>
+<tr>
+<td>border</td>
+<td>obramowania wokó³ zawartoœci elementu, ma styl i kolor.</td>
+</tr>
+<tr>
+<td>margin</td>
+<td>marginesy wokó³ ramki (margines zewnêtrzny). Jest to pusty obszar wokó³ ramki, który nie ma koloru t³a i jest przeŸroczysty.</td>
+</tr>
+</table>
+<li><h1>Podaj dwie uwagi na temat uk³adu pude³kowego</h1></li>
+<p>UWAGA 1</p>
+<p>Padding, border i margin mog¹ mieæ zerow¹ wartoœæ.</p>
+<p>UWAGA 2</p>
+<p>T³o elementu jest okreœlone dla wszystkich z podanych powy¿ej obszarów z wyj¹tkiem marginesów zewnêtrznych, które zawsze s¹ przezroczyste (transparent).</p>
+<li><h1>Wstaw grafikê obrazuj¹c¹ model pude³kowy.</h1></li>
+<img src="pudelko.jpg" />
+<li><h1>Wstaw grafikê obrazuj¹c¹ ró¿nicê pomiêdzy paddingiem i marginesem wraz z opisem.</h1></li>
+<img src="roznica.jpg" />
+</ol>
+</body>
+</html>
