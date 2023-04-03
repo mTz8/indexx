@@ -1,0 +1,48 @@
+<html>
+<head>
+ <style type="text/css">
+p
+{
+color:navy;
+font-size:30pt;
+}
+
+p:first-line
+{
+content:"first-line, który obejmuje formatowaniem całą pierwszą linię.";
+color:red;
+font-size:20pt;
+font-style:italic;
+font-weight:bold;
+}
+
+p:before
+{
+content:"TO SĄ ĆWICZENIA :after oraz :before. Oba elementy służą do umieszczania tekstu przed i za formatowanym elementem strony.";
+
+font-size:15pt;
+font-style:italic;
+font-weight:bold;
+}
+
+p:after
+{
+content:"AUTOR Król Lew";
+font-size:15pt;
+font-style:italic;
+font-weight:bold;
+}
+
+p:first-letter
+{
+color:red;
+font-size:100pt;
+}
+ </style>
+</head>
+<body>
+<p>
+Pseudoelement :first-letter pozwala na formatowanie pierwszej litery w bloku tekstu.
+</p>
+</body>
+</html>
